@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(124, 123, 123);
+    color: white;
+    font-size: 18px;
+}
+
+.containerNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(19, 17, 17);
+    flex-wrap: wrap;
+}
+
+.btn-header{
+    display: flex;
+    gap: 25px;
+}
+
+.btnNav{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(245, 223, 223);
+    cursor: pointer;
+    transition: 0.5s;
+    border-color: rgb(248, 239, 239);
+}
+
+.btn:hover{
+    background: rgb(179, 46, 46);
+}
