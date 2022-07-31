@@ -2,11 +2,13 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(124, 123, 123);
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
+p{
+    margin: 0;
+}
 .containerNav{
     display: flex;
     justify-content: space-between;
@@ -24,7 +26,7 @@ body{
 .btnNav{
     font-size: 20px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: transparent;
     color: rgb(245, 223, 223);
     cursor: pointer;
@@ -34,4 +36,39 @@ body{
 
 .btn:hover{
     background: rgb(179, 46, 46);
+}
+/*
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background: rgb(124, 123, 123);
+    min-height: 100vh;
+}
+
+.div-intro{
+    width: 50%;
+    margin-left: 25%;
+    background-color: black;
+    padding: 15px;
+}
+
+.btnIntro{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(245, 223, 223);
+    cursor: pointer;
+    transition: 0.5s;
+    border-color: rgb(11, 223, 205);
+}
+
+.div-hab{
+    background-color: black;
+    
+}
+
+.div-hab-img{
+    background-color: black;
 }
