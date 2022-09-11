@@ -1,0 +1,233 @@
+/* ----------------------------------------------GERAL----------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    align-items: center;
+}
+h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+p{
+    font-weight: 200;
+}
+span{
+    color: #3202f0;
+}
+button{
+    border: solid 3px transparent;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #48c5ff, #4c24fd);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 10px;
+    box-shadow: 2px 1000px 1px #fff inset;
+    justify-content: space-between;
+    color: #3202f0;
+    font-size: 16px;
+    transition: 0.2s;
+    padding: 10px;
+}
+
+button:hover{
+    box-shadow: 2px 1000px 1px rgb(0, 0, 0) inset;
+    color: #fff;
+}
+/* ----------------------------------------------GERAL----------------------------------*/
+
+/* -------------------------------------------- ALTERAÇÕES NAV --------------------------------------------*/
+nav *{
+    background-color: transparent;
+}
+
+nav{
+    display:flex; /*alinha os elementos em linha*/
+    flex-direction: row; /*elementos encaixados da esquerda para a direita*/
+    flex-wrap: nowrap; /*Não quebra linha*/
+    justify-content: space-between; /*faz com que os elementos fiquem 
+    colados primeiro a esquerda e direita e depois vai alinhando ao centro*/
+    align-items: center; /*faz com que os elementos filhos fiquem alinhados no centro*/
+    height: 60px;
+    padding: 10px 150px;
+    background-color: white;
+}
+
+nav h2{
+    color: #3202f0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btnNav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+/* -------------------------------------------- ALTERAÇÕES NAV --------------------------------------------*/
+
+/* -------------------------------------------- ALTERAÇÕES INTRO --------------------------------------------*/
+#Intro{
+    margin-top: 50px;
+}
+
+.btnIntro{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+/* -------------------------------------------- ALTERAÇÕES INTRO --------------------------------------------*/
+
+/* -------------------------------------------- ALTERAÇÕES Skills --------------------------------------------*/
+#Skills{
+    margin-top: 50px;
+}
+
+.skills *{
+    background-color: white;
+    color: black;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: solid 3px transparent;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #48c5ff, #4c24fd);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 10px;
+    box-shadow: 2px 1000px 1px #fff inset;
+    padding: 15px;
+}
+.row{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+.col{
+    flex-wrap: wrap;
+    padding: 15px;
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 100px;
+}
+.col div{
+    border: solid 3px transparent;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #48c5ff, #4c24fd);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 10px;
+    box-shadow: 2px 1000px 1px #fff inset;
+    padding: 10px;
+}
+/* -------------------------------------------- ALTERAÇÕES Skills --------------------------------------------*/
+
+/* -------------------------------------------- ALTERAÇÕES SOBRE MIM --------------------------------------------*/
+#Sobre{
+    margin-top: 50px;
+}
+
+#Sobre img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.sobre{
+    display: flex;
+    flex-flow:row;
+    width: 100%;
+    justify-content: space-between;
+}
+/* -------------------------------------------- ALTERAÇÕES SOBRE MIM --------------------------------------------*/
+
+/* -------------------------------------------- ALTERAÇÕES PROJETOS --------------------------------------------*/
+#Projetos{
+    margin-top: 50px;
+}
+#Projetos img{
+    width: 100px;
+}
+
+.projetos *{
+    background-color: white;
+    color: black;
+}
+
+.projetos{
+    display: flex;
+    flex-flow:row;
+    width: 100%;
+    justify-content: space-between;
+    border: solid 3px transparent;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #48c5ff, #4c24fd);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 10px;
+    box-shadow: 2px 1000px 1px #fff inset;
+    padding: 20px;
+}
+.projetos aside{
+    border: solid 3px transparent;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #48c5ff, #4c24fd);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 10px;
+    box-shadow: 2px 1000px 1px #fff inset;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.projetos aside div{
+    height: 100%;
+}
+
+/* -------------------------------------------- ALTERAÇÕES PROJETOS --------------------------------------------*/
+
+/* -------------------------------------------- ALTERAÇÕES CONTATO --------------------------------------------*/
+#Contato{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: justify;
+}
+
+#Contato div{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* -------------------------------------------- ALTERAÇÕES CONTATO --------------------------------------------*/
