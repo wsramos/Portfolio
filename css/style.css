@@ -132,7 +132,7 @@ nav h2{
     flex-flow:row;
     justify-content: space-between;
     width: 100%;
-    padding: 10px 100px;
+    padding: 10px;
 }
 .col div{
     border: solid 3px transparent;
@@ -143,6 +143,8 @@ nav h2{
     border-radius: 10px;
     box-shadow: 2px 1000px 1px #fff inset;
     padding: 10px;
+    margin: 0 10px;
+    width: 100%;
 }
 /* -------------------------------------------- ALTERAÇÕES Skills --------------------------------------------*/
 
@@ -205,6 +207,8 @@ nav h2{
     flex-flow: column;
     align-items: center;
     text-align: justify;
+    margin: 0 10px;
+    width: 100%;
 }
 
 .projetos aside div{
