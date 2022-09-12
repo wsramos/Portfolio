@@ -49,9 +49,20 @@ button{
     padding: 10px;
 }
 
-button:hover{
+button:hover:not(.orcamento:hover){
     box-shadow: 2px 1000px 1px rgb(0, 0, 0) inset;
     color: #fff;
+    scale: 1.1;
+}
+
+.orcamento{
+    box-shadow: none;
+    color: white;
+}
+
+.orcamento:hover{
+    font-weight: bold;
+    scale: 1.1;
 }
 /* ----------------------------------------------GERAL----------------------------------*/
 
