@@ -5,90 +5,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;600&display=swap" rel="stylesheet">
+    <title>Portfolio - William</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="caixaNav">
-                <h1>Logotipo</h1>
+            <div>
+                <h2>William S. Ramos</h2>
+            </div>                
+            <div class="btnNav">
+                <button>Sobre</button>
+                <button>Projetos</button>
+                <button>Contato</button>
             </div>
-            <div class="caixaNav">
-                <button class="btnNav">About</button>
-                <button class="btnNav">Projects</button>
-                <button class="btnNav">Contacts</button>
+                <!--<ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>-->
+            <div>
+                <button class="orcamento">ORÇAMENTO</button>
             </div>
         </nav>
     </header>
-    <main class="container">
-        <section>
-            <div class="box">
-                <h1 class="txtIntro">Hello, <br>
-                    I am <span>George</span>,<br>
-                    Front End Developer
-                </h1>
-                <p>Currently located in Greece, ilove building interactive, digital experiences on the web.</p>
-                <button class="btnIntro">Let's get in touch!</button>
+    <main>
+        <section id="Intro">
+            <div>
+                <p>-- Hello</p>
+                    <h2>Eu sou <span>William</span></h2><br>
+                    <h1>Front-end e<br> Back-end Java Developer</h1>
+                <br>
+            </div>
+            <div class="btnIntro">
+                <button class="orcamento">ORÇAMENTO</button>
+                <button>PROJETOS</button>
             </div>
         </section>
-        <section class="box">
-            <div class="caixa">
-                <h2><span>Skills</span> and tools</h2>
-                <p>For a more <span>detailed</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam,
-                    culpa.</p>
+        <section id="Skills">
+            <div>
+                <h1><span>Skills</span> and tools</h1>
+                <br>
             </div>
-            <div class="caixa"><img src="" alt="">IMG</div>
-        </section>
-        <section class="box">
-            <div class="caixa"><img src="" alt="">IMG</div>
-            <div class="caixa">
-                <p>
-                    <button class="btnIcone"></button>
-                    Reasonable and<br>
-                    flexible prices for clients
-                </p>
-                <progress color="#8ccc62" max="100" value="85">70 %</progress>
-                <p>Lorem ipsum dolor sit amet.</p>
-
-                <p>
-                    <button class="btnIcone"></button>
-                    Elaborating<br> 
-                    ideas in discussion</p>
-                <progress color="#8ccc62" max="100" value="85">70 %</progress>
-                <p>Lorem ipsum dolor sit amet.</p>
-
-                <p>
-                    <button class="btnIcone"></button>
-                    Full range of<br> 
-                    design and motion services</p>
-                <progress color="#8ccc62" max="100" value="85">70 %</progress>
-                <p>Lorem ipsum dolor sit amet.</p>
-
+            <div class="skills">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <h2>Front-End</h2>
+                            <br>
+                            <img>teste
+                            <br>
+                            <p>Front-End texto</p>
+                        </div>
+                        <div>
+                            <h2>Back-End</h2>
+                            <br>
+                            <img>teste
+                            <br>
+                            <p>Back-End texto</p>
+                        </div>
+                        <div>
+                            <h2>Back-End</h2>
+                            <br>
+                            <img>teste
+                            <br>
+                            <p>Back-End texto</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h2>Front-End</h2>
+                            <br>
+                            <img>teste
+                            <br>
+                            <p>Front-End texto</p>
+                        </div>
+                        <div>
+                            <h2>Back-End</h2>
+                            <br>
+                            <img>teste
+                            <br>
+                            <p>Back-End texto</p>
+                        </div>
+                        <div>
+                            <h2>Back-End</h2>
+                            <br>
+                            <img>teste
+                            <br>
+                            <p>Back-End texto</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="box">
-            <div class="caixa">Projetos</div>
-            <div class="caixa"><img src="" alt="">IMG</div>
-            <aside id="popup1" style="display:none">
+        <section id="Sobre">
+            <div>
+                <h1><span>Sobre</span> mim</h1>
+                <br>
+            </div>
+            <div class="sobre">
+                <div><p>lorem Ut deserunt elit exercitation ad. Do consequat reprehenderit 
+                    ullamco sint eu eu excepteur labore veniam 
+                    enim dolor. Fugiat est sint deserunt nostrud Lorem proident 
+                    dolore Lorem ut reprehenderit adipisicing.</p>
+                </div>
+                <div>
+                    <img src="imagens/William.jpg">
+                </div>
+            </div>
+        </section>
+        <section id="Projetos">
+            <div>
+                <h1><span>Projetos</span></h1>
+                <br>
+            </div>
+            <div class="projetos">
+                <aside>
+                    <div>
+                        <img src="imagens/html5.svg"><br>
+                    </div>
+                    <sub>HTML - CSS - JS</sub><br><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    <br><button>Acessar Site</button>
+                </aside>
+                <aside>
+                    <div><img src="imagens/css3-alt.svg"><br></div>
+                    <sub>HTML - CSS - JS</sub><br><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        <br><button>Acessar Site</button>
+                </aside>
+                <aside>
+                    <div><img src="imagens/js.svg"><br></div>
+                    <sub>HTML - CSS - JS</sub><br><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        <br><button>Acessar Site</button>
+                </aside>
+            </div>
+        </section>
+        <section id="Contato">
+            <h1>Agora que já me conhece, <br>
+                bora começar o seu projeto?
+            </h1>
+            <div class="contato">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-            </aside>
-        </section>
-        <section class="box">
-            <div class="caixa">Contact us <button>XXXXXX</button></div>
-
-            <aside id="popup2" style="display:none">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    <br>
+                <button class="orcamento">ENTRAR EM CONTATO</button>
+            </div>
+            <aside id="Form_contato" style="display:none">
+                
             </aside>
         </section>
     </main>
     <footer>
-        <h1>Rodapé</h1>
+        <p>2022 - Todos os Direitos reservados</p>
     </footer>
 </body>
 
